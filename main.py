@@ -94,7 +94,7 @@ while running:
         if event.type == pygame.QUIT:
             break
         if event.type == pygame.KEYDOWN:
-            print(event.key, "eeeeeee")
+            # print(event.key, "eeeeeee")
             if event.key == pygame.K_DOWN and snake.ydir != -1:
                 snake.ydir = 1
                 snake.xdir = 0
